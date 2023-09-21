@@ -9,5 +9,5 @@
     odkaz na svíčkovou jako od babči [zde](https://www.youtube.com/watch?v=9cZvNIAcN-U)
 
 
-Ich bin ein gamer
+
   ![image](https://i.ytimg.com/vi/urALb7SHGSI/maxresdefault.jpg)
