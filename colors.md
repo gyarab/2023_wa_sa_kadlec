@@ -1,5 +1,5 @@
 # Psychologie barev
 ## youtube
 
- ![image](https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)
+ ![image](https://www.gstatic.com/youtube/img/branding/youtubelogo/svg/youtubelogo.svg)
 
