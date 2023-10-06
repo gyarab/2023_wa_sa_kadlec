@@ -8,7 +8,7 @@
 myslím si, že youtube využil červené barvy k pocitu sebejistoty a energie, která nabudí zákazníky k sledování youtube obsahu
 
 ## Moje barvy
-- #de1616
+- #d7141a
 - #ffffff
 - vybral jsem tyto barvy, protože to jsou barvy nejkrásnějšího klubu 
   ## [Slavia](https://www.youtube.com/watch?v=onEOfRq1nc0)
