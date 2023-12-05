@@ -1,29 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pexeso</title>
-    <link rel="stylesheet" href="pexeso.css">
-</head>
-<body>
-    <h1>Pexeso</h1>
-    <div id="stav-hry"></div>
+let el = document.getElementById("stav-hry")
+el.innerHTML = "Nová hra";
 
-    <div id="card-1" class="card" onclick="clickCard1()">
-        <img src="img/rub.jpg" >
-    </div>
-    <div id="card-2" class="card" onclick="clickCard2()">
-        <img src="img/rub.jpg" >
-    </div>
-    <div id="card-3" class="card" onclick="clickCard3()">
-        <img src="img/rub.jpg" >
-    </div>
-    <div id="card-4" class="card" onclick="clickCard4()">
-        <img src="img/rub.jpg" >
-    </div>
+let counter = 5
 
+function myFnc() {
+    console.log("executed")
+    el.innerHTML = counter
+    counter--
+    if(counter > -1){
+        setTimeout(myFnc, 1000)
 
-   <script src="pexeso.js"></script>
-</body>
-</html>
+    }
+}
+
+setTimeout(myFnc, 1000)
+
+let card1 = document.getElementById("card-1")
+let card2 = document.getElementById("card-2")
+let card3 = document.getElementById("card-3")
+let card4 = document.getElementById("card-4")
+
+function clickCard1(){
+    card1.innerHTML = '<img src="img/liv.jpg" >'
+}
+function clickCard2(){
+    card2.innerHTML =  '<img src="img/ars.jpg" >'
+}
+function clickCard3(){
+    card3.innerHTML = '<img src="img/ars.jpg" >'
+}function clickCard4(){
+    card4.innerHTML = '<img src="img/liv.jpg" >'
+}
